@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "649201964850",
+    "project_id": "cpad-messege-app",
+    "storage_bucket": "cpad-messege-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649201964850:android:f03e49e54796c7cb34a92b",
+        "android_client_info": {
+          "package_name": "com.example.chat_messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649201964850-h1ahb0hk246hmaaa5dsphsksgluriadd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB1Zeo5yF1u5_1AyfmRQltnYQNY4oz690"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649201964850-h1ahb0hk246hmaaa5dsphsksgluriadd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
