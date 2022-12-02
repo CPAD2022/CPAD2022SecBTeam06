@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'firebase_options.dart';
 import 'pages/loading_screen.dart';
 import 'pages/error_screen.dart';
 import 'pages/auth_checker.dart';
@@ -12,7 +13,10 @@ void main() {
 
 //  This is a FutureProvider that will be used to check whether the firebase has been initialized or not
 final firebaseinitializerProvider = FutureProvider<FirebaseApp>((ref) async {
-  return await Firebase.initializeApp();
+  return await Firebase.initializeApp(
+    name: "CPAD",
+    options: DefaultFirebaseOptions.currentPlatform
+  );
 });
 
 class MyApp extends ConsumerWidget {

@@ -50,20 +50,22 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBB1Zeo5yF1u5_1AyfmRQltnYQNY4oz690',
-    appId: '1:649201964850:android:f03e49e54796c7cb34a92b',
-    messagingSenderId: '649201964850',
-    projectId: 'cpad-messege-app',
-    storageBucket: 'cpad-messege-app.appspot.com',
+    apiKey: 'AIzaSyBQAbhZYARprt6T27k58KR0r9Wd6q_W04g',
+    appId: '1:638742190735:android:0ec9643988251627242efa',
+    messagingSenderId: '638742190735',
+    projectId: 'chat-messenger-cpad-93c91',
+    databaseURL: 'https://chat-messenger-cpad-93c91-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'chat-messenger-cpad-93c91.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC2V0qeoLEQNtBfKxVpl1SXyljr5fWJlX8',
-    appId: '1:649201964850:ios:0d3bfc4c5454a54a34a92b',
-    messagingSenderId: '649201964850',
-    projectId: 'cpad-messege-app',
-    storageBucket: 'cpad-messege-app.appspot.com',
-    iosClientId: '649201964850-iturvks6l21rq3kkr1qdeatipl8tio0g.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAbYm9MCpYZUwIk-dkN91fm7Oyprz-P51o',
+    appId: '1:638742190735:ios:6e2f694bfc0be39b242efa',
+    messagingSenderId: '638742190735',
+    projectId: 'chat-messenger-cpad-93c91',
+    databaseURL: 'https://chat-messenger-cpad-93c91-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'chat-messenger-cpad-93c91.appspot.com',
+    iosClientId: '638742190735-fqhsi3huu4nb1a159e2dahv9p78afb18.apps.googleusercontent.com',
     iosBundleId: 'com.example.chatMessenger',
   );
 }

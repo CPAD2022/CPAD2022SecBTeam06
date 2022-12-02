@@ -1,3 +1,6 @@
+import 'package:chat_messenger/firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:chat_messenger/models/auth_model.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -35,4 +38,10 @@ final authStateProvider = StreamProvider<User?>((ref) {
 //  though we can store it in da`tabase but for now we will just use it to get the user
 final fireBaseAuthProvider = Provider<FirebaseAuth>((ref) {
   return FirebaseAuth.instance;
+});
+
+final databaseProvider = Provider<FirebaseDatabase>((ref) {
+  final db = FirebaseDatabase.instanceFor(app: Firebase.app("CPAD"));
+  db.databaseURL = db.app.options.databaseURL;
+  return db;
 });

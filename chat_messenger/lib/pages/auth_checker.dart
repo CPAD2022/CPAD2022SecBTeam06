@@ -1,4 +1,5 @@
 import 'package:chat_messenger/pages/error_screen.dart';
+import 'package:chat_messenger/pages/home_page.dart';
 import 'package:chat_messenger/pages/loading_screen.dart';
 import 'package:chat_messenger/providers/auth_provider.dart';
 import 'package:flutter/material.dart';
@@ -23,7 +24,7 @@ class AuthChecker extends ConsumerWidget {
     final authState = ref.watch(authStateProvider);
     return authState.when(
         data: (data) {
-          if (data != null) return const Text("Return Home Page");
+          if (data != null) return  HomePage(ref: ref);
           return const LoginPage();
         },
         loading: () => const LoadingScreen(),

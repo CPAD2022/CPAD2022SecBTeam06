@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "649201964850",
-    "project_id": "cpad-messege-app",
-    "storage_bucket": "cpad-messege-app.appspot.com"
+    "project_number": "638742190735",
+    "firebase_url": "https://chat-messenger-cpad-93c91-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chat-messenger-cpad-93c91",
+    "storage_bucket": "chat-messenger-cpad-93c91.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:649201964850:android:f03e49e54796c7cb34a92b",
+        "mobilesdk_app_id": "1:638742190735:android:0ec9643988251627242efa",
         "android_client_info": {
           "package_name": "com.example.chat_messenger"
         }
       },
       "oauth_client": [
         {
-          "client_id": "649201964850-h1ahb0hk246hmaaa5dsphsksgluriadd.apps.googleusercontent.com",
+          "client_id": "638742190735-jfkittn2ibco3vqi1e3u41dvgns559ln.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBB1Zeo5yF1u5_1AyfmRQltnYQNY4oz690"
+          "current_key": "AIzaSyBQAbhZYARprt6T27k58KR0r9Wd6q_W04g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "649201964850-h1ahb0hk246hmaaa5dsphsksgluriadd.apps.googleusercontent.com",
+              "client_id": "638742190735-jfkittn2ibco3vqi1e3u41dvgns559ln.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "638742190735-fqhsi3huu4nb1a159e2dahv9p78afb18.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatMessenger"
+              }
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "file_generated_by": "FlutterFire CLI",
   "purpose": "FirebaseAppID & ProjectID for this Firebase app in this directory",
-  "GOOGLE_APP_ID": "1:649201964850:ios:0d3bfc4c5454a54a34a92b",
-  "FIREBASE_PROJECT_ID": "cpad-messege-app",
-  "GCM_SENDER_ID": "649201964850"
+  "GOOGLE_APP_ID": "1:638742190735:ios:6e2f694bfc0be39b242efa",
+  "FIREBASE_PROJECT_ID": "chat-messenger-cpad-93c91",
+  "GCM_SENDER_ID": "638742190735"
 }
